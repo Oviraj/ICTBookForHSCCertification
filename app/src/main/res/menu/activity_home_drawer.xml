@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_cptOne"
+            android:icon="@drawable/foodmenu"
+            android:title="প্রথম অধ্যায়" />
+        <item
+            android:id="@+id/nav_CptTwo"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="দ্বিতীয় অধ্যায়" />
+        <item
+            android:id="@+id/nav_cptThree"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="তৃতীয় অধ্যায়" />
+        <item
+            android:id="@+id/nav_cptFour"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="চতুর্থ অধ্যায়" />
+        <item
+            android:id="@+id/nav_cptFive"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="পঞ্চম অধ্যায়" />
+        <item
+            android:id="@+id/nav_cptSix"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="ষষ্ঠ অধ্যায়" />
+        <item
+            android:id="@+id/nav_quiz"
+            android:icon="@android:drawable/ic_input_add"
+            android:title="প্রশ্ন ব্যাংক" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@android:drawable/presence_video_away"
+            android:title="ভিডিও" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite Friends" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send mail" />
+        </menu>
+    </item>
+
+</menu>

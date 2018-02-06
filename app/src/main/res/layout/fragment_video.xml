@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ictbook.ingenium.ictbookforhsccertification.Fragments.VideoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+
+            <Button
+                android:id="@+id/videoOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="Algorithm"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/video"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/videoTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="C Program"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/video"
+                android:background="@drawable/white"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

@@ -1,0 +1,143 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ictbook.ingenium.ictbookforhsccertification.Fragments.ChapterTwoFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_One"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="কমিউনিকেশন সিস্টেমের প্রাথমিক ধারণা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="ডেটা কমনিকেশন মাধ্যম"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="ওয়ারলেস কমিউনিকেশন সিস্টেম"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="মোবাইল টেলিফোন সিস্টেমের প্রজন্ম"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="কম্পিউটার নেটওয়ার্কের ধারণা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="কম্পিউটার নেটওয়ার্ক ব্যাবহার"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="কমিউটার নেটওয়ার্কের কাজ"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="নেটওয়ার্ক টপোলজি"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+            <Button
+                android:id="@+id/Button_Chapter_Two_Topic_Nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="ক্লাউড কম্পিউটিং"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+            <Button
+                android:id="@+id/Button_quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="প্রশ্ন ব্যাংক"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

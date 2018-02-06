@@ -1,0 +1,144 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ictbook.ingenium.ictbookforhsccertification.Fragments.ChapterOneFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_One"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="বিশ্বগ্রামের ধারণা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="ভার্চুয়াল রিয়েলিটি"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="তথ্য ও যোগাযোগ প্রযুক্তির সাম্প্রতিক প্রবণতা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="আর্টিফিশিয়াল ইন্টেলিজেন্স"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="তথ্য ও প্রযুক্তি ব্যাবহারের নৈতিকতা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="সমাজে তথ্য ও যোগাযোগ প্রযুক্তির প্রভাব"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="অর্থনৈতিক উন্নয়ন"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="কম্পাইলার ও লিংকার"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_One_Topic_Nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="হাই লেভেল প্রোগ্রামিং এর সুবিধা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="প্রশ্ন ব্যাংক"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

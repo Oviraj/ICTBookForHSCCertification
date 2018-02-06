@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.ChapterThreeFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp" >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginBottom="50dp">
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_One"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="সংখ্যা আবিস্কারের ইতিহাস"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="সংখ্যা পদ্ধতি"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="বাইনারী যোগ বিয়োগ"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="চিহ্নযুক্ত সংখ্যা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="২এর পরিপূরক"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="কোড"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="বুলিয়ান অ্যালজেবরা"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="বুলিয়ান উপপাদ্য"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_Chapter_Three_Topic_Nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="ডি মরগ্যানের উপপাদ্য"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+            <Button
+                android:id="@+id/Button_quiz"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:text="প্রশ্ন ব্যাংক"
+                android:textStyle="bold"
+                android:drawableLeft="@drawable/book"
+                android:background="@drawable/white"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

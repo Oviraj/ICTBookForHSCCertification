@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:id="@+id/content_fragment"
+    android:background="#ffffff"
+    android:layout_height="match_parent"
+    tools:context="ictbook.ingenium.ictbookforhsccertification.Fragments.ContentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/logo_w_h"
+                    android:layout_height="@dimen/logo_w_h"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/unnamed" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Chapter Name"
+                    android:textAlignment="center"
+                    android:id="@+id/Content_TextView_ChapterName"
+                    android:layout_gravity="center_horizontal" />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:text="Text lactures"
+                    android:layout_marginTop="16dp"
+                    android:drawableLeft="@drawable/book"
+                    android:background="@drawable/white"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Content_Button_One"/>
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:text="Video Tutorial"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/video"
+                    android:background="@drawable/white"
+                    android:id="@+id/Content_Button_Two"
+                    />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

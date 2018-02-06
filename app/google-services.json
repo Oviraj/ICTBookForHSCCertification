@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "471041162662",
+    "firebase_url": "https://ict-book-for-hsc-certifi-b778c.firebaseio.com",
+    "project_id": "ict-book-for-hsc-certifi-b778c",
+    "storage_bucket": "ict-book-for-hsc-certifi-b778c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471041162662:android:a6ec8c125224112e",
+        "android_client_info": {
+          "package_name": "ictbook.ingenium.ictbookforhsccertification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471041162662-iso5v8p9prsqq54ajr2vi027sqpkg865.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjtXjszfuBtKhtg7kG0k6EVRp3_99VAQc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
